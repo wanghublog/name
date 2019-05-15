@@ -1,0 +1,2 @@
+git remote add og git@github.com:wanghublog/wanghublog.github.io.git
+git push (-u og master)
