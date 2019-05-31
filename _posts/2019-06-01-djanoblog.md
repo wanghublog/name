@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Blog by Django"
 date: 2019-6-1
