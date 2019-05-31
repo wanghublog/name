@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Blog by Django
+title: "Blog by Django"
 date: 2019-6-1
 description: "利用django搭建的一个简单Blog"
 tag: django
