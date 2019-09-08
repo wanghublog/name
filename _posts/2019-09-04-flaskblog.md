@@ -12,6 +12,7 @@ tag: Flask
 ## 进入博客首页
     
     打开浏览器进入： 127.0.0.1:5000
+
 ## blog登陆页面展示
 ![](/images/posts/flaskblog/blog_login.png "登陆页面")
 ## 第三方QQ登陆展示
