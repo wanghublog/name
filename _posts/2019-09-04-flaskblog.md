@@ -17,6 +17,16 @@ tag: Flask
 ![](/images/posts/flaskblog/blog_login.png "登陆页面")
 ## 第三方QQ登陆展示
 ![](/images/posts/flaskblog/qq_login.png "QQ登陆")
+## celery实现的email功能展示
+###window在后台运行：`celery -A celery_runner worker --pool=solo -l info`
+![](/images/posts/flaskblog/qq_login.png "celery_mail")
+## restful通过HTTP实现对资源操作的操作指令：
+###创建token值:`curl -d "username=<username>" -d "password=<password>" http://localhost:5000/api/auth`
+###使用token值创建文章:`curl -d "title=<title>" -d "text=<text>" -d "tags=<tag>" -d "token=<token值>" http://localhost:5000/api/posts`
+###使用token值删除文章:`curl -X DELETE -d "token=<token值>"http://localhost:8089/api/posts/<post_id>`
+###使用token值修改文章:`curl -X PUT -d "title=<new title>" -d "text=<new text>" -d "tags=<new tag>"  -d "token=<token值>" http://localhost:8089/api/posts/<post_id>`
+###增加文章例子展示：
+![](/images/posts/flaskblog/qq_login.png "restful_test")
 ## blog首页展示
 ![](/images/posts/flaskblog/home.png "博客首页")
 ## blog内容展示
